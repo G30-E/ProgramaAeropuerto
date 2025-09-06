@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.aeropuerto">
+  <application android:label="Programa Aeropuerto" android:theme="@android:style/Theme.Material.Light.NoActionBar"
+      android:allowBackup="true" android:supportsRtl="true">
+    <activity android:name=".ui.StatsActivity" android:exported="false"/>
+    <activity android:name=".ui.RecordsActivity" android:exported="false"/>
+    <activity android:name=".ui.NewCaptureActivity" android:exported="false"/>
+    <activity android:name=".ui.MainActivity" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>

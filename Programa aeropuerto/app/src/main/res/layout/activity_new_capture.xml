@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+  <LinearLayout android:orientation="vertical" android:padding="16dp"
+      android:layout_width="match_parent" android:layout_height="wrap_content">
+
+      <TextView android:text="Cronómetro" android:textStyle="bold" android:textSize="18sp"
+          android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <Chronometer android:id="@+id/chronometer" android:textSize="24sp"
+          android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+      <LinearLayout android:orientation="horizontal"
+          android:layout_width="match_parent" android:layout_height="wrap_content">
+          <Button android:id="@+id/btnStart" android:text="@string/start"
+              android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+          <View android:layout_width="8dp" android:layout_height="match_parent"/>
+          <Button android:id="@+id/btnStop" android:text="@string/stop"
+              android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+      </LinearLayout>
+
+      <View android:layout_width="match_parent" android:layout_height="12dp"/>
+
+      <TextView android:text="@string/person_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <EditText android:id="@+id/edtPersonName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Nombre completo"/>
+
+      <TextView android:text="@string/nationality" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <Spinner android:id="@+id/spnNationality" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+      <CheckBox android:id="@+id/chkHuella" android:text="@string/fingerprints_taken"
+          android:layout_width="match_parent" android:layout_height="wrap_content"/>
+      <CheckBox android:id="@+id/chkIris" android:text="@string/iris_taken"
+          android:layout_width="match_parent" android:layout_height="wrap_content"/>
+      <CheckBox android:id="@+id/chkNacReg" android:text="@string/nationality_recorded" android:checked="true"
+          android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+      <TextView android:text="@string/operator" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <EditText android:id="@+id/edtOperator" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+      <TextView android:text="@string/shift" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <Spinner android:id="@+id/spnShift" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+      <TextView android:text="@string/equipment" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <EditText android:id="@+id/edtEquipment" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+      <TextView android:text="@string/notes" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <EditText android:id="@+id/edtNotes" android:layout_width="match_parent" android:layout_height="wrap_content"
+          android:minLines="2" android:inputType="textMultiLine"/>
+
+      <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btnSave" android:text="@string/save" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <View android:layout_width="8dp" android:layout_height="match_parent"/>
+        <Button android:id="@+id/btnCancel" android:text="@string/cancel" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+      </LinearLayout>
+  </LinearLayout>
+</ScrollView>

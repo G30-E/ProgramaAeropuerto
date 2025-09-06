@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.example.aeropuerto.app-debug-4:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.aeropuerto.app-main-6:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.aeropuerto.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.aeropuerto.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.aeropuerto.app-debug-4:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.aeropuerto.app-main-6:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.aeropuerto.app-debug-4:/layout_activity_new_capture.xml.flat",
+        "source": "com.example.aeropuerto.app-main-6:/layout/activity_new_capture.xml"
+    },
+    {
+        "merged": "com.example.aeropuerto.app-debug-4:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.aeropuerto.app-main-6:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.aeropuerto.app-debug-4:/layout_activity_records.xml.flat",
+        "source": "com.example.aeropuerto.app-main-6:/layout/activity_records.xml"
+    },
+    {
+        "merged": "com.example.aeropuerto.app-debug-4:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.aeropuerto.app-main-6:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.aeropuerto.app-debug-4:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.aeropuerto.app-main-6:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.aeropuerto.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.example.aeropuerto.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.aeropuerto.app-debug-4:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.aeropuerto.app-main-6:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.aeropuerto.app-debug-4:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.aeropuerto.app-main-6:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.aeropuerto.app-debug-4:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.aeropuerto.app-main-6:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.aeropuerto.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.aeropuerto.app-main-6:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.aeropuerto.app-debug-4:/layout_activity_stats.xml.flat",
+        "source": "com.example.aeropuerto.app-main-6:/layout/activity_stats.xml"
+    },
+    {
+        "merged": "com.example.aeropuerto.app-debug-4:/layout_item_record.xml.flat",
+        "source": "com.example.aeropuerto.app-main-6:/layout/item_record.xml"
+    }
+]

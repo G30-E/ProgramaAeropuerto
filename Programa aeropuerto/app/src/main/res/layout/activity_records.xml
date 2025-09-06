@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="12dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/btnBackHome" android:text="@string/back_home" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ListView android:id="@+id/listRecords" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:dividerHeight="8dp"/>
+    <Button android:id="@+id/btnExport" android:text="@string/export_csv" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

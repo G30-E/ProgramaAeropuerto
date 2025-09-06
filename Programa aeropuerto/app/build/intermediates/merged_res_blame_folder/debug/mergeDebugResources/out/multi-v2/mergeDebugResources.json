@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.aeropuerto.app-debug-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\VICTUS\\Desktop\\Programa aeropuerto\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,20,8,9,14,10,16,17,11,18,2,15,12,19,3,7,13,5,4,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "16,966,346,390,625,434,718,781,486,832,73,670,539,905,127,305,585,220,173,262",
+                        "endColumns": "56,54,43,43,44,51,62,50,52,72,53,47,45,60,45,40,39,41,46,42",
+                        "endOffsets": "68,1016,385,429,665,481,776,827,534,900,122,713,580,961,168,341,620,257,215,300"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "158,215,270,314,358,403,455,518,569,622,695,749,797,843,904,950,991,1031,1073,1120",
+                        "endColumns": "56,54,43,43,44,51,62,50,52,72,53,47,45,60,45,40,39,41,46,42",
+                        "endOffsets": "210,265,309,353,398,450,513,564,617,690,744,792,838,899,945,986,1026,1068,1115,1158"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\VICTUS\\Desktop\\Programa aeropuerto\\app\\src\\main\\res\\values\\arrays.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "2",
+                        "startOffsets": "14",
+                        "endColumns": "100",
+                        "endOffsets": "112"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "102",
+                        "endOffsets": "153"
+                    }
+                }
+            ]
+        }
+    ]
+}

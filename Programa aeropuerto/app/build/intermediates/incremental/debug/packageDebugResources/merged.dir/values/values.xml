@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="turnos"><item>mañana</item><item>tarde</item><item>noche</item></string-array>
+    <string name="app_name">Programa Aeropuerto</string>
+    <string name="back_home">Volver al inicio</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="equipment">Equipo</string>
+    <string name="export_csv">Exportar CSV</string>
+    <string name="fingerprints_taken">Huellas tomadas</string>
+    <string name="iris_taken">Iris tomado</string>
+    <string name="nationality">Nacionalidad</string>
+    <string name="nationality_recorded">Nacionalidad registrada</string>
+    <string name="new_capture">Nueva captura</string>
+    <string name="notes">Observaciones</string>
+    <string name="operator">Operador</string>
+    <string name="person_name">Nombre de la persona</string>
+    <string name="records">Registros</string>
+    <string name="save">Guardar</string>
+    <string name="shift">Turno</string>
+    <string name="start">Iniciar</string>
+    <string name="stats">Estadísticas</string>
+    <string name="stop">Finalizar</string>
+</resources>

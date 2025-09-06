@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="24dp" android:gravity="center"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/btnNew" android:text="@string/new_capture" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:layout_width="match_parent" android:layout_height="12dp"/>
+    <Button android:id="@+id/btnRecords" android:text="@string/records" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:layout_width="match_parent" android:layout_height="12dp"/>
+    <Button android:id="@+id/btnStats" android:text="@string/stats" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

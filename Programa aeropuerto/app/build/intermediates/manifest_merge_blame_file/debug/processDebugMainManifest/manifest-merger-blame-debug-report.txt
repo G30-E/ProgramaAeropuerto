@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.aeropuerto"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="36" />
+10
+11    <application
+11-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:2:3-13:17
+12        android:allowBackup="true"
+12-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:3:7-33
+13        android:debuggable="true"
+14        android:extractNativeLibs="true"
+15        android:label="Programa Aeropuerto"
+15-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:2:16-51
+16        android:supportsRtl="true"
+16-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:3:34-60
+17        android:testOnly="true"
+18        android:theme="@android:style/Theme.Material.Light.NoActionBar" >
+18-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:2:52-115
+19        <activity
+19-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:4:5-74
+20            android:name="com.example.aeropuerto.ui.StatsActivity"
+20-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:4:15-47
+21            android:exported="false" />
+21-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:4:48-72
+22        <activity
+22-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:5:5-76
+23            android:name="com.example.aeropuerto.ui.RecordsActivity"
+23-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:5:15-49
+24            android:exported="false" />
+24-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:5:50-74
+25        <activity
+25-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:6:5-79
+26            android:name="com.example.aeropuerto.ui.NewCaptureActivity"
+26-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:6:15-52
+27            android:exported="false" />
+27-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:6:53-77
+28        <activity
+28-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:7:5-12:16
+29            android:name="com.example.aeropuerto.ui.MainActivity"
+29-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:7:15-46
+30            android:exported="true" >
+30-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:7:47-70
+31            <intent-filter>
+31-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:8:7-11:23
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:9:9-61
+32-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:9:17-58
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:10:9-69
+34-->C:\Users\VICTUS\Desktop\Programa aeropuerto\app\src\main\AndroidManifest.xml:10:19-66
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>
